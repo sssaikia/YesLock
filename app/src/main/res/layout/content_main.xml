@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:paddingBottom="10dp"
+    android:paddingEnd="10dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingStart="10dp"
+    android:paddingTop="10dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.sstudio.yeslock.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/wallpaper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop" />
+
+       <!-- <com.animoto.android.views.DraggableGridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="bottom"
+
+            android:id="@+id/homeGrid">
+
+        </com.animoto.android.views.DraggableGridView>-->
+
+        <TextClock
+            android:id="@+id/clock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textSize="50dp"
+            tools:targetApi="jelly_bean_mr1" />
+
+        <com.sstudio.yeslock.JazzyGridView
+            android:id="@+id/grid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <!-- <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:gravity="center"
+             android:layout_gravity="bottom"
+             android:orientation="horizontal">
+
+             <ImageView
+                 android:id="@+id/fav1"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+             <Space
+                 android:layout_width="6dp"
+                 android:layout_height="wrap_content" />
+
+             <ImageView
+                 android:id="@+id/fav2"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+             <Space
+                 android:layout_width="6dp"
+                 android:layout_height="wrap_content" />
+
+             <ImageView
+                 android:id="@+id/fav3"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+             <Space
+                 android:layout_width="6dp"
+                 android:layout_height="wrap_content" />
+
+             <ImageView
+                 android:id="@+id/fav4"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+             <Space
+                 android:layout_width="6dp"
+                 android:layout_height="wrap_content" />
+
+             <ImageView
+                 android:id="@+id/fav5"
+                 android:layout_width="50dp"
+                 android:layout_height="50dp" />
+         </LinearLayout>-->
+
+    </FrameLayout>
+
+
+</RelativeLayout>

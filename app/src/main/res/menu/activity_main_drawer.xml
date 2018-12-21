@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Camera" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/nav_send"
+            android:icon="@android:drawable/stat_sys_phone_call"
+            android:title="Dial" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Change Wallpaper" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="System Settings" />
+    </group>
+    <item android:title="Configuration">
+        <menu>
+            <item
+                android:title="Drawer settings"
+                android:id="@+id/drawersettings"/>
+            <item
+                android:title="Configure Lock"
+                android:id="@+id/configure"/>
+            <item
+                android:title="App lock"
+                android:id="@+id/change_lock_screen"/>
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/help"
+                android:title="Help"
+                android:icon="@android:drawable/ic_menu_help"/>
+            <item
+                android:id="@+id/about"
+                android:title="about"
+                android:icon="@android:drawable/ic_menu_info_details"/>
+
+        </menu>
+    </item>
+
+</menu>
